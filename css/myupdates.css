@@ -1,0 +1,164 @@
+     
+    /* NAV */
+
+    #nav {
+/*      background-color: #CCC;*/
+      height: 70px;
+    }
+
+    #nav .logo {
+      text-align: left;
+      font-weight: 700;
+      font-size: 20px;
+      padding-top: 20px;
+    }
+
+    #nav .logo a {
+      color: #000 !important;
+    }
+
+    #nav .logo a:hover {
+      color: #10CFEC !important;
+    }
+
+
+    #nav .links {
+      text-align: right;
+      padding-top: 25px;
+    }
+
+    #nav a {
+      padding: 0 10px 0 10px;
+      color: #909090;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+
+          #nav .logo a {
+            padding-left: 0px;
+          }
+
+    #nav a:hover {
+      color: #10CFEC;
+      text-decoration: none;
+    }
+
+
+    /* GENERAL */
+
+    body {
+        font-family: 'Fira Sans', sans-serif;
+        color: #2D2D2D;
+    }
+
+    a {
+      color: #10CFEC;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+
+    a:hover {
+      color: #10CFEC;
+      text-decoration: underline;
+      letter-spacing: .3px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.55;
+      padding: 8px 0 8px 0;
+    }
+
+    h1 {
+      font-size: 26px;
+      padding-bottom: 12px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+
+    h3 {
+      font-size: 18px;
+      padding: 12px 0 12px 0;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+
+    #detail-content {
+      padding-top: 35px;
+      margin-bottom: 50px;
+    }
+
+    #detail-content .container {
+      max-width: 800px;
+    }
+
+
+      ul li {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.55;
+        padding-bottom: 5px;
+      }
+
+      ul {
+         padding-left: 20px !important;
+      }
+
+
+
+      @media screen and (max-width: 576px) {
+          #nav .logo {
+            font-size: 15px;
+            padding-top: 23px;
+          }     
+
+          #nav .links {
+            font-size: 13px;
+            /*padding-top: 15px;*/
+          }
+
+          #nav a {
+            padding: 0 5px 0 5px;
+          }
+
+          #detail-content {
+            padding-top: 0px;
+          }
+
+          h1 {
+            font-size: 22px;
+            line-height: 1.55;
+            padding-bottom: 0px;
+          }
+
+
+          h3 {
+            font-size: 16px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+
+          ul {
+             padding-left: 17px !important;
+          }
+
+
+          ul li {
+            font-size: 15px;
+            padding-bottom: 7px;
+          }
+
+      }
+
+
+      @media screen and (max-width: 992px) {
+
+      }
+
+      @media screen and (min-width: 992px) {
+
+
+      }
