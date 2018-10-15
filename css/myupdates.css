@@ -34,9 +34,9 @@
       letter-spacing: .3px;
     }
 
-          #nav .logo a {
-            padding-left: 0px;
-          }
+    #nav .logo a {
+      padding-left: 0px;
+    }
 
     #nav a:hover {
       color: #10CFEC;
@@ -51,7 +51,7 @@
         color: #2D2D2D;
     }
 
-    a {
+    a, a:visited, a:active {
       color: #10CFEC;
       font-weight: 600;
       letter-spacing: .3px;
@@ -148,7 +148,7 @@
 
           ul li {
             font-size: 15px;
-            padding-bottom: 7px;
+            padding-bottom: 5px;
           }
 
       }
