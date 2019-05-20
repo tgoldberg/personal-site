@@ -30,11 +30,16 @@
   <meta name="twitter:image" content="http://toddgoldberg.com/images/opengraph.png">
   <meta name="twitter:domain" content="toddgoldberg.com">
 
+  <!-- General JS-->
+  <script src="../js/myupdates.js"></script>
+
     <style>
 
     @media screen and (max-width: 768px) {
 
     }
+
+    
 
 	    
     </style>
@@ -48,34 +53,50 @@
 
 	  ga('create', 'UA-43020813-2', 'auto');
 	  ga('send', 'pageview');
-		</script>
+    </script>
+  
 
   </head>
   <body>
 
   <div id="nav" class="container">
   	<div class="row">
-  		<div class="col-xs-5 col-md-8 logo"><a href="index.html">Todd Goldberg</a></div>
-  		<div class="col-xs-7 col-md-4 links"> 
+  		<div class="col-xs-7 col-md-4 logo"><a href="index.html">Todd Goldberg</a></div>
+  		<div class="col-xs-5 col-md-8 links"> 
   			<div>
-                <a href="../about.html">About</a><a href="../work.html">Work</a><a href="../posts/index.html">Posts</a><a href="../involvement.html">Investments</a>
+                <a href="../about.html">About</a>
+                <div class="navlinks-mobilevisible">
+                  <a href="../work.html">Work</a>
+                  <a href="index.html">Words</a>
+                  <a href="../involvement.html">Investments</a>
+                </div>
+                <a class="navlinks-mobilehidden" style="cursor:pointer" onclick="openNav()">More</a>
             </div>
   		</div>
-  	</div>
+    </div>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../work.html">Work</a>
+    <a href="index.html">Words</a>
+    <a href="../involvement.html">Investments</a>
   </div>
 
   <div id="detail-content">
         <div class="container">
             <div class="row">
             <div class="col-md-12">
-              <h1>Posts</h1>
+              <h1>Words</h1>
               
               <h3>Startups</h3>
 
               <p>🧀 <a href="sample.html">Startup wedges</a></p>
               <p>❤️ <a href="favorite-startup-resources.html">Favorite startup resources</a></p>
 
-              <p>I'm new to blogging and plan to start writing more, but I actively tweet.  <a href="http://twitter.com/toddg777" target="_blank">Follow me on twitter</a> and let me know what you topics you'd like to see around product, design, marketing, and go-to-market.</p>
+              <p>I'm new to blogging and plan to start writing more, but I actively tweet.  <a href="http://twitter.com/toddg777" target="_blank">Follow me on twitter</a> and let me know what posts you'd like to see around product, design, marketing, and go-to-market.</p>
             </div>
             </div>
         </div>

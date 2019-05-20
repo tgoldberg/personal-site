@@ -50,19 +50,37 @@
 	  ga('send', 'pageview');
 		</script>
 
+    <!-- General JS-->
+    <script src="js/myupdates.js"></script>
+
   </head>
   <body>
 
-  <div id="nav" class="container">
-  	<div class="row">
-  		<div class="col-xs-5 col-md-8 logo"><a href="index.html">Todd Goldberg</a></div>
-  		<div class="col-xs-7 col-md-4 links"> 
-  			<div>
-        <a href="about.html">About</a><a href="work.html">Work</a><a href="involvement.html">Investments</a>
-  			</div>
-  		</div>
-  	</div>
-  </div>
+    <div id="nav" class="container">
+      <div class="row">
+        <div class="col-xs-7 col-md-4 logo"><a href="index.html">Todd Goldberg</a></div>
+        <div class="col-xs-5 col-md-8 links"> 
+          <div>
+                  <a href="about.html">About</a>
+                  <div class="navlinks-mobilevisible">
+                    <a href="work.html">Work</a>
+                    <a href="posts/index.html">Words</a>
+                    <a href="involvement.html">Investments</a>
+                  </div>
+                  <a class="navlinks-mobilehidden" style="cursor:pointer" onclick="openNav()">More</a>
+              </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="posts/index.html">Words</a>
+      <a href="involvement.html">Investments</a>
+    </div>
 
   <div id="detail-content">
 					<div class="container">
@@ -72,8 +90,9 @@
 
               <p>😎 I'm an entrepreneur with a strong focus on product, marketing, design, and go-to-market</p>
               <p>📈 The last venture-backed company I founded was funded by Y Combinator and later acquired by Ticketmaster</p>
-              <p>⚒ I've also built and grown a variety of bootstrapped B2B and consumer products</p>
-              <p>💰 I'm an early-stage startup investor and advisor that enjoys being hands-on</p>
+              <p>⚒ I've also <a href="work.html">built and grown</a> a variety of bootstrapped B2B and consumer products</p>
+              <p>💰 I'm an early-stage startup <a href="involvement.html">investor and advisor</a> that enjoys being hands-on</p>
+              <p>✍️ I  <a href="http://twitter.com/toddg777" target="_blank">tweet</a> often, but occasionally <a href="posts/index.html">write</a> long form content, too</p>
               <p>👀 I'm currently exploring new venture opportunities. Some areas of interest include health and fitness, direct-to-consumer/e-commerce, crypto, personal finance, and future of work</p>
 
               <h3>Bonus content</h3>
@@ -88,7 +107,7 @@
                 <li>I'm an active reader who also listens to a lot of podcasts.</li>
               </ul>
 
-              <p>I <a href="http://twitter.com/toddg777" target="_blank">tweet</a> frequently, but occasionally write <a href="https://medium.com/@toddgoldberg" target="_blank">long form</a> content too. You can reach me at hello [at] my full name [dot] com</p>
+              <p>If you'd like to get in touch, tweet me or email hello [at] my full name [dot] com </p>
             </div>
             </div>
 					</div>

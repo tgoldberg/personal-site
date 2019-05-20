@@ -125,10 +125,10 @@ body {
 
 } */
 .body-text p{
-    font-size: 18px;
+    font-size: 16px;
     color: #555555;
-    line-height: 1.6;
-    margin-bottom: 15px;
+    line-height: 1.55;
+    margin-bottom: 10px;
 }
 
 ul, ol {
@@ -137,9 +137,9 @@ ul, ol {
 }
 
 .body-text li{
-    font-size: 18px;
+    font-size: 16px;
     color: #555555;
-    line-height: 1.6;
+    line-height: 1.55;
 }
 
 
@@ -220,6 +220,12 @@ a:hover {
     margin-top: 50px;
     padding-bottom: 10px;
 }
+.sidenav a {
+    border-bottom: 0px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #222;
+  }
 
 @media (max-width: 576px) {
     .subject {
@@ -232,6 +238,10 @@ a:hover {
         line-height: 1.5 !important;
         padding: 20px 20px 20px 20px;
     }
+
+    .thread-details {
+        margin-top: 30px;
+      }
 
 /* @media (min-width: 576px) {
     .share-label {

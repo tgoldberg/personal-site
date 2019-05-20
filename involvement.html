@@ -180,21 +180,39 @@
 
 	  ga('create', 'UA-43020813-2', 'auto');
 	  ga('send', 'pageview');
-		</script>
+    </script>
+
+    <!-- General JS-->
+    <script src="js/myupdates.js"></script>
 
   </head>
   <body>
 
-  <div id="nav" class="container">
-  	<div class="row">
-  		<div class="col-xs-5 col-md-8 logo"><a href="index.html">Todd Goldberg</a></div>
-  		<div class="col-xs-7 col-md-4 links"> 
-  			<div>
-        <a href="about.html">About</a><a href="work.html">Work</a><a href="involvement.html">Investments</a>
-  			</div>
-  		</div>
-  	</div>
-  </div>
+    <div id="nav" class="container">
+      <div class="row">
+        <div class="col-xs-7 col-md-4 logo"><a href="index.html">Todd Goldberg</a></div>
+        <div class="col-xs-5 col-md-8 links"> 
+          <div>
+                  <a href="about.html">About</a>
+                  <div class="navlinks-mobilevisible">
+                    <a href="work.html">Work</a>
+                    <a href="posts/index.html">Words</a>
+                    <a href="involvement.html">Investments</a>
+                  </div>
+                  <a class="navlinks-mobilehidden" style="cursor:pointer" onclick="openNav()">More</a>
+              </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="posts/index.html">Words</a>
+      <a href="involvement.html">Investments</a>
+    </div>
 
   <div id="detail-content">
 					<div class="container">
@@ -205,7 +223,6 @@
                     <h1>Early-stage investor</h1>
 
                       <p>I'm a founder-friendly angel investor with a strong focus on product, design, and marketing. I previously founded Eventjoy (backed by Y Combinator) and later sold it to Ticketmaster. Building and growing beautiful products that solve real problems is what excites me. I enjoy bringing those skills, my network, and startup experience to founders I work with. I look to back formidable, relentlessly resourceful entrepreneurs on their endeavors. I'm stage and sector agnostic, but prefer to be involved early (where I can add the most value).</p>
-                      <p>If you're also an investor, apply to <a href="https://angel.co/todd-goldberg/syndicate" target="_blank">join my syndicate</a> to co-invest with me on future deals.</p>
                   </div>
               </div>
 

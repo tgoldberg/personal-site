@@ -65,8 +65,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+
     <!-- General JS-->
-    <script src="../js/general.js"></script>
+    <script src="../js/myupdates.js"></script>
 
     <!-- Prepare social share links-->
     <script>
@@ -100,13 +101,28 @@
 
         <div id="nav" class="container">
             <div class="row">
-                <div class="col-xs-4 col-md-7 logo"><a href="index.html" class="logo-text">Todd Goldberg</a></div>
-                <div class="col-xs-8 col-md-5 links"> 
+                <div class="col-xs-7 col-md-4 logo"><a href="index.html">Todd Goldberg</a></div>
+                <div class="col-xs-5 col-md-8 links"> 
                     <div>
-                        <a href="../about.html">About</a><a href="../work.html">Work</a><a href="../posts/index.html">Posts</a><a href="../involvement.html">Investments</a>
-                    </div>
+                      <a href="../about.html">About</a>
+                      <div class="navlinks-mobilevisible">
+                        <a href="../work.html">Work</a>
+                        <a href="index.html">Words</a>
+                        <a href="../involvement.html">Investments</a>
+                      </div>
+                      <a class="navlinks-mobilehidden" style="cursor:pointer" onclick="openNav()">More</a>
+                  </div>
                 </div>
-            </div>
+          </div>
+        </div>
+      
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About</a>
+          <a href="../work.html">Work</a>
+          <a href="index.html">Words</a>
+          <a href="../involvement.html">Investments</a>
         </div>
         
         <div class="post-container container">
