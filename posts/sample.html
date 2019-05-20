@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+        ga('create', 'UA-43020813-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="save tweets, organize tweets, tweet reader, twitter reader, pocket, read it later">
+    <meta name="description" content="Tech entrepreneur. Early-stage investor. Y Combinator alum.">
+    
+    <title>Startup wedges</title>
+
+
+    <!-- Opengraph -->
+    <meta property="og:title" content="Article title" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Todd Goldberg" />
+    <meta property="og:url" content="http://toddgoldberg.com/posts/sample.html" />
+    <meta property="og:image" content="http://toddgoldberg.com/images/opengraph.png" /> 
+    <meta property="og:description" content="Description" />
+
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Article title">
+    <meta name="twitter:description" content="Tech entrepreneur & investor; Y Combinator Alum">
+    <meta name="twitter:image" content="http://toddgoldberg.com/images/opengraph.png">
+    <meta name="twitter:domain" content="toddgoldberg.com">
+    <meta name="twitter:creator" content="@toddg777" />
+
+
+  </head>
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Main site stylesheet-->
+    <link rel="stylesheet" href="../css/myupdates.css">
+
+    <!-- Thread specific stylesheet-->
+    <link rel="stylesheet" href="css/blog.css">
+
+    <!-- Favion -->
+    <link rel="icon" href="../images/favicon.ico">
+
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700" rel="stylesheet">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- General JS-->
+    <script src="../js/general.js"></script>
+
+    <!-- Prepare social share links-->
+    <script>
+        window.onload = setShareLinks;
+
+        function socialWindow(url) {
+            var left = (screen.width - 570) / 2;
+            var top = (screen.height - 570) / 2;
+            var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+            window.open(url,"NewWindow",params);
+        }
+        
+          function setShareLinks() {
+            var pageUrl = encodeURIComponent(document.URL);
+            var tweet = "\"" + document.title + "\"" + " by @toddg777";
+
+            jQuery(".social-share-facebook").on("click", function() {
+              url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
+              socialWindow(url);
+          });
+        
+            jQuery(".social-share-twitter").on("click", function() {
+                url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + tweet;
+                socialWindow(url);
+            });
+        
+        }
+    </script>
+
+    <body>
+
+        <div id="nav" class="container">
+            <div class="row">
+                <div class="col-xs-4 col-md-7 logo"><a href="index.html" class="logo-text">Todd Goldberg</a></div>
+                <div class="col-xs-8 col-md-5 links"> 
+                    <div>
+                        <a href="../about.html">About</a><a href="../work.html">Work</a><a href="../posts/index.html">Posts</a><a href="../involvement.html">Investments</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-container container">
+            <div class=" thread-details"> 
+                <div style="color: #989898;"><span class="date">Sep 8, 2018</span> </div>
+                <h1 class="subject">Advice to non-technical founders looking for a tech co-founder</h1>
+            </div>
+        <div class=" body-text">
+            <p>Advice to non-technical founders looking for a tech co-founder:</p> 
+
+            <p>1) It’s hard but important.  Stick with it.  Trust that this is just one of the many many hard things you’ll have to do to succeed.</p> 
+            <p>2) Consider whether or not you need to work on your idea.  Perhaps you should help a tech-cofounder with their idea (that’s what I did at Justin.tv)
+            </p>
+            <p>3) <a href="#">Consider</a> whether you should start with an idea at all.  Perhaps it’s better to have a problem / cause you are passionate about and the brainstorm potential solutions with potential technical partners.</p>
+            <p>4) Seek people from your friend / work network.  Make a list of everyone you know who writes code as their primary job and who you would enjoy tackling hard problems with.</p>
+            <h2>H2 header</h2>
+            <p>5) Make the people on your <i>list</i> a real offer.  Tell them exactly how much equity you’d be willing to give them (for early stage company this number should be probably be fairly high).  Also tell them that you are looking for a 2 year no progress commitment.</p>
+            <p>By that I mean - if the startup <b>doesn’t</b> work in two years.  We shut it down - no harm no foul.</p>
+            <p>6) If you don’t know anyone technical.  Consider <a href="#">getting a job</a> at a tech startup and building your network of software developers.</p>
+
+            <p class="quote">Good startups, however, think about the whole wedge from the start. They build an initial user base with simple features and then quickly iterate to create products that are enduringly useful, thereby creating companies that have stand-alone, defensible value.</p>
+           
+            <p>(If you are still in school and might want to start a startup one day - consider that’s it probably helpful to make friends with students who are learning CS).</p>
+            <p class="quote2">"One thing you should also know is that when strangers start tech startups together - in our experience at YC - they break up quickly at an alarmingly high rate.  So it’s better to do a company with people you know is some pre-existing context."</p>
+            <h2>H2 header</h2>
+            <p>(If you are working with someone you just met.  Trust that many times good investors will want to wait some months to see if you really get along)</p>
+            <p>8) If you ask the people on your list and they say no or maybe.  Do more work to push your startup forward and ask again.  Remember your ask needs to be specific (equity, time commitment, etc)</p>
+            <h3>H3 header</h3>
+            <p>By do more work I don’t mean spend money to outsource engineering.  Talk to customers, build v1 yourself using a website creator and excel as your backend, get your first sale, etc.</p>
+            <p>As always.  This is for tech startups and/or startups that want to raise from tech investors.</p> 
+          
+            <ul>
+                <li>item 1 is on a list</li>
+                <li>item 2 is on a list</li>
+            </ul>
+
+                      
+            <ol>
+                <li>item 1 is on a list</li>
+                <li>item 2 is on a list</li>
+            </ol>
+          </div>
+          <hr class="closing-line">
+          <div style="display: inline-flex;">
+               
+                <p class="share-label"><a href="https://twitter.com/toddg777" target="_blank">Follow me</a> on Twitter | Liked this post? Share it :)</p>
+                <a class="social-share-twitter" style="border-bottom: none;"><div class="share-twitter-icon"></div></a>
+                <a class="social-share-facebook" style="border-bottom: none;"><div class="share-facebook-icon"></div></a>
+              </div>
+        </div>
+          
+    </body>
+</html>

@@ -9,8 +9,11 @@
     #nav .logo {
       text-align: left;
       font-weight: 700;
-      font-size: 20px;
       padding-top: 20px;
+    }
+
+    #nav .logo-text {
+      font-size: 20px;
     }
 
     #nav .logo a {
@@ -31,6 +34,9 @@
       padding: 0 10px 0 10px;
       color: #909090;
       font-weight: 600;
+      text-decoration: none !important;
+      border-bottom: none;
+      font-size: 14px;
       letter-spacing: .3px;
     }
 
@@ -49,6 +55,7 @@
     body {
         font-family: 'Fira Sans', sans-serif;
         color: #2D2D2D;
+        -webkit-font-smoothing: antialiased;
     }
 
     a, a:visited, a:active {
