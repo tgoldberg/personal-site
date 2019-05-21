@@ -2,3 +2,4 @@ http://toddgoldberg.com/index.html
 http://toddgoldberg.com/work.html
 http://toddgoldberg.com/about.html
 http://toddgoldberg.com/involvement.html
+http://toddgoldberg.com/posts/index.html
