@@ -142,6 +142,12 @@ ul, ol {
     line-height: 1.55;
 }
 
+.img-caption {
+    font-size: 13px !important;
+    padding-top: 0px !important;
+    font-style: italic;
+    text-align: center;
+}
 
 h2 {
     font-size: 24px;
@@ -161,6 +167,7 @@ a, a:visited, a:active {
     color: #222;
     font-weight: 400;
     border-bottom: 2px solid #e1e1e1;
+    text-decoration: none;
 }
 
 a:hover {
@@ -226,6 +233,12 @@ a:hover {
     font-weight: 400;
     color: #222;
   }
+
+img {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 @media (max-width: 576px) {
     .subject {
