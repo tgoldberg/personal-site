@@ -82,7 +82,8 @@
         
           function setShareLinks() {
             var pageUrl = encodeURIComponent(document.URL);
-            var tweet = "\"" + document.title + "\"" + " by @toddg777";
+            var article_title = document.title.substr(0, document.title.indexOf('|')); 
+            var tweet = encodeURIComponent(article_title) + "by @toddg777";
 
             jQuery(".social-share-facebook").on("click", function() {
               url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
