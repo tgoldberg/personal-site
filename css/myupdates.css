@@ -62,13 +62,11 @@
     a, a:visited, a:active {
       color: #10CFEC;
       font-weight: 600;
-      letter-spacing: .3px;
     }
 
     a:hover {
       color: #10CFEC;
       text-decoration: underline;
-      letter-spacing: .3px;
     }
 
     p {
@@ -80,7 +78,7 @@
     h1 {
       font-size: 26px;
       padding-bottom: 12px;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       font-weight: 700;
       letter-spacing: .3px;
     }
@@ -164,6 +162,38 @@
       margin-left: 50px;
     }
 
+    /*Breadcrumb*/
+    a.breadcrumbnav, a.breadcrumbnav:visited, a.breadcrumbnav:active {
+      color: #BBB;
+      font-weight: 400;
+      text-decoration: none;
+      margin-bottom: 20px;
+      display: inline-block;
+      border-bottom: 0px !important;
+    }
+
+    a.breadcrumbnav:hover {
+      color: #10CFEC;
+      text-decoration: none;
+      border-bottom: 2px solid #10CFEC;
+    }
+
+
+    /*Secondary links*/
+    a.secondary, a.secondary:visited, a.secondary:active {
+      color: #222;
+      font-weight: 400;
+      border-bottom: 2px solid #e1e1e1;
+      text-decoration: none;
+    }
+
+    a.secondary:hover {
+      color: #10CFEC;
+      text-decoration: none;
+      border-bottom: 2px solid #10CFEC;
+    }
+
+
 
     @media screen and (max-height: 450px) {
       .sidenav {padding-top: 15px;}
@@ -189,6 +219,11 @@
 
           #nav a {
             padding: 0 5px 0 5px;
+          }
+
+          a.breadcrumbnav, a.breadcrumbnav:visited, a.breadcrumbnav:active {
+            margin-top: 30px;
+            margin-bottom: 0px;
           }
 
           #detail-content {
